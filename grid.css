@@ -1,0 +1,90 @@
+.universo {
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sol {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://vignette.wikia.nocookie.net/wikastro/images/0/01/Sol.png/revision/latest/scale-to-width-down/320?cb=20120106120647&path-prefix=es");
+}
+
+.orbita-tierra {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    border: 3px solid red;
+    z-index: 10;
+}
+
+.orbita-luna {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 40px;
+    left: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 120%;
+    border: 2px solid ghostwhite;
+}
+
+.luna {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20%;
+    left: 74%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://vignette.wikia.nocookie.net/destiny/images/1/13/Luna.png/revision/latest?cb=20140907104827&path-prefix=es");
+
+}
+
+.tierra {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://www.seo-camp.org/files/2016/09/globe-1348777_960_720.png");
+}
+
+.orbita-marte {
+    width: 94%;
+    height: 94%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    border: 3px solid red;
+}
+
+.marte {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -8%;
+    left: 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("http://www.stickpng.com/assets/images/580b585b2edbce24c47b2708.png");
+}
+
